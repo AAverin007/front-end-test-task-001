@@ -1,0 +1,203 @@
+//=======================    Header   ======================//
+.site-header {
+  padding-top: 80px;
+  background: url("/public/img/header-bg.jpg") no-repeat  center center;
+  background-size: cover;
+
+  .logotype {
+    text-align: center;
+  }
+
+  .header-block {
+    padding-bottom: 146px;
+
+    h1 {
+      padding-top: 232px;
+      margin-bottom: 28px;
+      width: 650px;
+      font-size: 60px;
+      font-weight: 300;
+      color: white;
+      line-height: 68px;
+    }
+
+    p {
+      width: 780px;
+      margin-bottom: 12px;
+      color: white;
+    }
+  }
+
+  .learn-more-link {
+    margin-left: 26px;
+    border-bottom: 1px dashed #f7f8f8;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+//=======================   Section About   ======================//
+.about {
+  padding-top: 133px;
+  margin-bottom: 128px;
+  color: #494e68;
+
+  h2 {
+    padding-bottom: 56px;
+  }
+
+  .about-block {
+    padding-left: 86px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+  .circle {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #85919d;
+    border-radius: 50%;
+
+    .icon-center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+
+  h4 {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  p {
+    color: #85919d;
+    width: 304px;
+    display: inline-block;
+  }
+}
+
+//====================   Section Send   =====================//
+.send {
+  margin: 0 auto;
+  background: #85919d;
+  text-align: center;
+  color: white;
+  padding-top: 74px;
+  padding-bottom: 100px;
+
+  p {
+    width: 340px;
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 35px;
+  }
+}
+
+.query {
+  width: 340px;
+  margin: 0 auto;
+
+  .input-query {
+    margin-top: 10px;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 18px;
+    width: 322px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #494e68;
+  }
+
+  .phone {
+    float: left;
+    margin-right: 10px;
+    width: 146px;
+  }
+
+  .email {
+    width: 146px;
+  }
+
+  .location {
+    margin-top: 10px;
+    padding-left: 16px;
+    margin-bottom: 19px;
+    background-color: white;
+    width: 340px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #494e68;
+
+    &:invalid:not(:focus) {
+      color: #85919d;
+    }
+
+    &:invalid:focus {
+      color: #85919d;
+    }
+
+    &:focus option {
+      color: #494e68;
+    }
+  }
+
+  .error {
+    background-color: #fbcdcd;
+    color: #ff6262;
+
+    &:invalid:not(:focus) {
+      color: #ff6262;
+    }
+
+    &:invalid:focus {
+      background-color: white;
+    }
+  }
+}
+
+//======================    Foother   ======================//
+.site-footer {
+  text-align: center;
+  color: #85919d;
+
+  p {
+    padding-top: 42px;
+    padding-bottom: 20px;
+  }
+
+  .social-icon {
+    margin-bottom: 36px;
+
+    a {
+      display: inline-block;
+    }
+  }
+}

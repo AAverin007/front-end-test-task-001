@@ -1,0 +1,82 @@
+/*======================    Sprite     ======================*/
+.sprite {
+  background: url("/public/img/spritesheet.png") no-repeat;
+  display: block;
+}
+
+.sprite-ad {
+  background-position: -5px -5px;
+  width: 25px;
+  height: 25px;
+}
+
+.sprite-close {
+  background-position: -40px -5px;
+  opacity: 0.4;
+  width: 30px;
+  height: 30px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.sprite-facebook {
+  background-position: -120px -5px;
+  width: 34px;
+  height: 32px;
+
+  &:hover {
+    background-position: -164px -5px;
+  }
+}
+
+.sprite-google {
+  background-position: -208px -5px;
+  width: 33px;
+  height: 32px;
+
+  &:hover {
+    background-position: -251px -5px;
+  }
+}
+
+.sprite-linkedin {
+  background-position: -294px -5px;
+  width: 33px;
+  height: 32px;
+
+  &:hover {
+    background-position: -337px -5px;
+  }
+}
+
+.sprite-partners {
+  background-position: -380px -5px;
+  width: 20px;
+  height: 26px;
+}
+
+.sprite-revies {
+  background-position: -462px -5px;
+  width: 27px;
+  height: 25px;
+}
+
+.sprite-us {
+  background-position: -499px -5px;
+  width: 39px;
+  height: 41px;
+}
+
+.sprite-work {
+  background-position: -548px -5px;
+  width: 34px;
+  height: 32px;
+}
+
+.sprite-philosophy {
+  background-position: -410px -5px;
+  width: 42px;
+  height: 42px;
+}

@@ -1,0 +1,43 @@
+//=====================   Global   =====================//
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 10px;
+  border: none;
+  width: 340px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #2954a5;
+  color: white;
+
+  &:hover {
+    background-color: #3267ca;
+  }
+}
